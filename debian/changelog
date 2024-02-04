@@ -1,5 +1,48 @@
-template-repository (1.0-1) unstable; urgency=medium
+node-morgan (1.10.0+~1.9.3-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster
+
+  [ Yadd ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Replace /releases by /tags in GitHub urls
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 11:58:26 +0100
+
+node-morgan (1.10.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+
+  [ Yadd ]
+  * Update standards version to 4.6.0, no changes needed
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop nodejs dependency
+  * Initial upstream branch.
+  * Import Upstream version 1.10.0
+  * Fix test for node-supertest >= 6
+
+ -- Yadd <yadd@debian.org>  Wed, 23 Mar 2022 14:58:15 +0100
+
+node-morgan (1.10.0-2) unstable; urgency=medium
+
+  * Bumping debhelper-compat (no changes).
+
+ -- Andrius Merkys <merkys@debian.org>  Mon, 02 Nov 2020 00:47:08 -0500
+
+node-morgan (1.10.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #960908)
+
+ -- Andrius Merkys <merkys@debian.org>  Tue, 19 May 2020 00:46:07 -0400
